@@ -1,0 +1,17 @@
+[project]
+name = "civitfetch"
+description = "Paste a CivitAI / Civitai Red link and download the model into the right ComfyUI models/ folder, chosen from a dropdown."
+version = "1.0.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+classifiers = ["Operating System :: OS Independent"]
+dependencies = ["requests"]
+
+[project.urls]
+Repository = "https://github.com/retrodiffuse/ComfyUI-CivitFetch"
+"Bug Tracker" = "https://github.com/retrodiffuse/ComfyUI-CivitFetch/issues"
+
+# Comfy Registry (https://registry.comfy.org). Bump version above to publish a new release.
+[tool.comfy]
+PublisherId = "retr0gr4d3"
+DisplayName = "CivitFetch"

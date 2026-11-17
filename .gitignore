@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.part
+.DS_Store
+
+# never commit credentials
+.env
+*.key
+comfy.settings.json
